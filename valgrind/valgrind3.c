@@ -14,9 +14,12 @@ int main()
 		s++;
 	}
 
-	for(int n = 0; n < 30; n++) {
+	s = p;
+	for(int n = 0; n < 20; n++) {
 		*s = 'A';
 		s++;
 	}
+
+	free(p);
 
 }
