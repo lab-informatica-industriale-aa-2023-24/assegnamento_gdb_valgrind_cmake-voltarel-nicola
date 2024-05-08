@@ -23,7 +23,7 @@ int main()
 
 	double media;
 	if (numeri > 0) {
-		media = somma/numeri;
+		media = (double)somma/numeri;
 		printf("La media è %f\n", media);
 	}
 

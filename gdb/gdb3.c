@@ -4,8 +4,8 @@
 long fattoriale(int n)
 {
 	long result = 1;
-	while (n--)
-		result*=n;
+	while (n)
+		result*=(n--);
 
  	return result;
 }
